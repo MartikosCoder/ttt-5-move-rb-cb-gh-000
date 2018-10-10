@@ -8,5 +8,5 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  board[input - 1] = 'X';
+  return input - 1;
 end
